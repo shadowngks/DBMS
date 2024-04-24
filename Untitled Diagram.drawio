@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-24T07:55:26.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Bj4ffqj3wFWBnadhvlzu" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-24T07:56:16.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Nah89uDgVPw5uQjodZyz" version="24.2.7" type="github">
   <diagram name="Page-1" id="LdbcUFC1tRVgujnVX4Xb">
     <mxGraphModel dx="592" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,7 +75,9 @@
           <mxGeometry y="210" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-16" value="Staff" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="550" width="140" height="390" as="geometry" />
+          <mxGeometry x="710" y="600" width="140" height="390" as="geometry">
+            <mxRectangle x="710" y="600" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-17" value="Staff number {PK}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ls-SHakYHyXTyBNyHONt-16">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -114,7 +116,9 @@
           <mxGeometry y="360" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-20" value="Fault report" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="250" width="140" height="90" as="geometry" />
+          <mxGeometry x="710" y="310" width="140" height="90" as="geometry">
+            <mxRectangle x="710" y="310" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-21" value="Date checked" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ls-SHakYHyXTyBNyHONt-20">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -123,7 +127,9 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-24" value="Hire agreement" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="710" y="355" width="140" height="180" as="geometry" />
+          <mxGeometry x="710" y="410" width="140" height="180" as="geometry">
+            <mxRectangle x="710" y="410" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ls-SHakYHyXTyBNyHONt-27" value="Hire number {PK}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Ls-SHakYHyXTyBNyHONt-24">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
