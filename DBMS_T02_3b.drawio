@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T15:48:17.795Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="5T8FSQGVqGvi0mi1UIdT" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T16:02:27.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="hCKrQ3bBobJ3tRkjsZnM" version="24.4.0" type="github">
   <diagram name="Page-1" id="29nIUFQOG-XX_y2JN-Sb">
-    <mxGraphModel dx="678" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,25 @@
             <mxPoint x="170" y="300" as="sourcePoint" />
             <mxPoint x="220" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PCl0sgf97GIm3yHNG8tl-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.501;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PCl0sgf97GIm3yHNG8tl-36" target="PCl0sgf97GIm3yHNG8tl-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="120" as="sourcePoint" />
+            <mxPoint x="960" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="80" />
+              <mxPoint x="960" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PCl0sgf97GIm3yHNG8tl-35" value="Post branchNo into Staff to modell 1:* relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCl0sgf97GIm3yHNG8tl-36" value="Branch (branchNo, address telNo)&lt;div&gt;Primary Key: branchNo&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="120" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PCl0sgf97GIm3yHNG8tl-37" value="Staff (staffNo, name, address, gender, DOB)&lt;div&gt;Primary Key: staffNo&lt;/div&gt;&lt;div&gt;Alternate Key: address?&lt;/div&gt;&lt;div&gt;Foreign Key: banchNo reference Branch (branchNo)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="120" width="340" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
