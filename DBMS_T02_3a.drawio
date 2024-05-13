@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T15:10:18.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0Ai02oPQ3HqFYQlM0ZGI" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T15:29:41.392Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="u4Nndey_J1_dBsrdzirZ" version="24.4.0" type="github">
   <diagram name="Page-1" id="R7tkVovCSRG-hz7lbjan">
-    <mxGraphModel dx="759" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1802" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,22 +102,43 @@
         </mxCell>
         <mxCell id="mN7e4mBWiY_VBtz48zXP-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="680" as="sourcePoint" />
-            <mxPoint x="800" y="680" as="targetPoint" />
+            <mxPoint x="-235" y="680" as="sourcePoint" />
+            <mxPoint x="245" y="680" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="320" y="640" />
-              <mxPoint x="800" y="640" />
+              <mxPoint x="-235" y="640" />
+              <mxPoint x="245" y="640" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mN7e4mBWiY_VBtz48zXP-2" value="Model (Model_ID, Manufacturer, Capacity, Daily hire rate)&lt;div&gt;Primary key: Model_ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="65" y="680" width="515" height="60" as="geometry" />
+          <mxGeometry x="-490" y="680" width="515" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mN7e4mBWiY_VBtz48zXP-3" value="Vehicle (VehNo, purchaseDate, mileage)&lt;div&gt;Primary: VehNo&lt;/div&gt;&lt;div&gt;Alternate key: purchaseDate?&lt;/div&gt;&lt;div&gt;Foreign key: Model_ID reference Model (Model_ID)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="680" width="515" height="80" as="geometry" />
+          <mxGeometry x="-15" y="680" width="515" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mN7e4mBWiY_VBtz48zXP-4" value="Post Model_ID into Vehicle to model 1:* relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="400" y="600" width="320" height="40" as="geometry" />
+          <mxGeometry x="-155" y="600" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="600" as="sourcePoint" />
+            <mxPoint x="760" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="600" as="sourcePoint" />
+            <mxPoint x="840" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-10" value="Customer (customerID, name, licenseNo, address, phone)&lt;div&gt;Primary key: customerID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="520" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-12" value="Vehicle (VehNo, purchaseDate, mileage)&lt;div&gt;Primary: VehNo&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="520" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-13" value="Hires (startDate, endDate, totalPrice)&lt;div&gt;Primary key: CustomerID, VehNo&lt;/div&gt;&lt;div&gt;Foreign key customerID references Customer(customerID)&lt;/div&gt;&lt;div&gt;Foreign key VehNo references Vehicle(VehNo)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="720" width="440" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
