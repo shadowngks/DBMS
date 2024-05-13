@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T15:04:22.376Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="JrT_dG2CChYzMFS5R3Yr" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-13T15:10:18.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0Ai02oPQ3HqFYQlM0ZGI" version="24.4.0" type="github">
   <diagram name="Page-1" id="R7tkVovCSRG-hz7lbjan">
     <mxGraphModel dx="759" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
         <mxCell id="mN7e4mBWiY_VBtz48zXP-2" value="Model (Model_ID, Manufacturer, Capacity, Daily hire rate)&lt;div&gt;Primary key: Model_ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="65" y="680" width="515" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mN7e4mBWiY_VBtz48zXP-3" value="Vehicle (VehNo, purchaseDate, mileage)&lt;div&gt;Primary: VehNo&lt;/div&gt;&lt;div&gt;Alternate key: purchaseDate?&lt;/div&gt;&lt;div&gt;Foreign key: Model_ID reference Vehicle (Model_ID)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="mN7e4mBWiY_VBtz48zXP-3" value="Vehicle (VehNo, purchaseDate, mileage)&lt;div&gt;Primary: VehNo&lt;/div&gt;&lt;div&gt;Alternate key: purchaseDate?&lt;/div&gt;&lt;div&gt;Foreign key: Model_ID reference Model (Model_ID)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="680" width="515" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mN7e4mBWiY_VBtz48zXP-4" value="Post Model_ID into Vehicle to model 1:* relation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
